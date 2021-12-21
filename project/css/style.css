@@ -1,0 +1,63 @@
+* {
+}
+.logo-img {
+  width: 150px;
+}
+.site-nav {
+  position: absolute;
+  top: 0;
+}
+.home {
+  background-image: url("../img/Bg-Shape.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 50%;
+}
+.about-text {
+  background-image: url("../img/bg-2.svg");
+  background-size: 100%;
+  background-position: center;
+}
+.about {
+  background-color: #7e76f910;
+}
+
+.sercives {
+  background-image: url("../img/bg-3.svg");
+  background-size: 100%;
+  background-position: center;
+}
+.service-card {
+  border: none !important;
+  border-radius: 1.75rem !important;
+  box-shadow: 0 0.5rem 0.5rem rgb(0 0 0 / 05%) !important;
+  transition: 0.5s;
+}
+.service-card:hover {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  transform: scale(0.98);
+}
+.pricing {
+  background-color: #7e76f915;
+}
+.slick-dots {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.slick-dots li {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: transparent;
+  border: 2px solid #7e76f9;
+  border-radius: 50%;
+}
+.slick-dots li.slick-active {
+  width: 15px !important;
+  height: 15px !important;
+  background-color: #7e76f9 !important;
+}
+.footer {
+  background-image: url("../img/Bg-Shape.svg");
+  height: 400px;
+}
